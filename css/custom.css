@@ -1,0 +1,115 @@
+body,
+html {
+  background-color: black;
+  font-family: "IBM PLEX MONO", sans-serif;
+}
+
+p {
+  line-height: normal;
+}
+
+nav {
+  margin-top: 1.25rem;
+}
+
+.navbar-brand {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 5px;
+}
+
+.navbar-brand img {
+  border-radius: 5rem;
+  border-width: 1.5px;
+}
+
+#notification {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: transparent;
+}
+
+#app {
+  margin-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#actual-cash {
+  display: flex;
+  padding: 1.3125rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5625rem;
+  align-self: stretch;
+  border-radius: 1.3125rem;
+}
+
+#actual-cash p {
+  font-size: 0.75rem;
+  color: #504701;
+  text-transform: uppercase;
+}
+
+#actual-cash span {
+  font-size: 1.25rem;
+  color: #504701;
+  text-transform: uppercase;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+#resume p {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#cards {
+  display: flex;
+  gap: 0.75rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#cards .card {
+  display: flex;
+  width: 7.8125rem;
+  height: 5rem;
+  padding-left: 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0.75rem;
+}
+
+#cards .card p {
+  color: #504701;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cards .card span {
+  color: #504701;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
